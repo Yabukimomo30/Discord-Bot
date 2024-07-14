@@ -1,3 +1,22 @@
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.setHeader('Content-Type', 'text/html');
+  res.end(`
+    <html>
+      <head>
+        <title>Your Web View</title>
+      </head>
+      <body style="margin: 0; padding: 0;">
+        <iframe width="100%" height="100%" src="https://axocoder.vercel.app/" frameborder="0" allowfullscreen></iframe>
+      </body>
+    </html>`);
+});
+
+server.listen(3000, () => {
+  console.log('Server Online because of Axo Coder ✅!!');
+});
+
 const { Client, Collection } = require('discord.js');
 const { DiscordTogether } = require('discord-together');
 const fs = require('fs');
@@ -8,13 +27,6 @@ const client = new Client({
     intents: 32767,
 });
 module.exports = client;
-
-require("replit-uptimer").config({
-    port: 3000,
-    path: "/",
-    message: "Subscribe to Unknown PHV https://www.youtube.com/channel/UCGTbFucVXPA9OBTUPZj-TzQ. Please check out updates.md",
-    debug: true,
-});
 
 // Append variables to client variable
 client.commands = new Collection();
