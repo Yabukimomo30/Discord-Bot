@@ -20,8 +20,8 @@ module.exports = {
                 .setDescription(
                     'A bot made by earl'
                 )
-                .addField('Join Our Discord', '[Discord](https://discord.gg/UV22V6fEAv)', true)
-                .addField('Follow PHV on GitHub', '[GitHub](https://github.com/PHV08)', true)
+                .addField('Join Our Discord', '[Discord](https://discord.gg/4vpJRCNvYA)', true)
+                .addField('Follow PHV on GitHub', '[GitHub](https://www.youtube.com/@Earlpolloso22)', true)
                 .setFooter(`Thank you for using the story command!`);
 
             // Process the interaction response in a single location
