@@ -23,8 +23,8 @@ module.exports = {
             return str.charAt(0).toUpperCase() + str.slice(1);
         };
         
-        const supportServerLink = 'https://discord.gg/UV22V6fEAv'; // Replace with your support server link
-        const websiteLink = 'https://linktr.ee/UNKNOWNPHV'; // Replace with your website link
+        const supportServerLink = 'https://discord.gg/4vpJRCNvYA'; // Replace with your support server link
+        const websiteLink = 'https://guns.lol/unibypasser'; // Replace with your website link
         
         const core = os.cpus()[0];
         const embed = new MessageEmbed()
