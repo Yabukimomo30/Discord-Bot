@@ -2,7 +2,7 @@ const { CommandInteraction, Client, MessageEmbed } = require('discord.js');
 
 module.exports = {
     name: 'story',
-    description: 'Story of PHV Bot',
+    description: 'Story of Allin1 Bot',
     userperm: 'SEND_MESSAGES',
     botperm: 'SEND_MESSAGES',
     /**
@@ -16,9 +16,9 @@ module.exports = {
 
             const embed = new MessageEmbed()
                 .setColor('#0099ff')
-                .setTitle('PHV Bot Story')
+                .setTitle('Allin1 Bot Story')
                 .setDescription(
-                    'This is not originally my code (technically it is). The project was initially named exxyll and was started by - gifaldyazkaa. However, the code had become outdated, prompting me (PHV) to completely recode the entire project. I have also added numerous additional features such as meme, welcome, ping, github, covid, etc. It has come to my attention that some individuals have accused me of simply stealing this code. I want to clarify that I have diligently rectified any errors, extensively updated the entire codebase (which took me days to accomplish), and made several significant improvements. Therefore, I kindly request that you refrain from making unfounded assumptions.'
+                    'A bot made by ear;'
                 )
                 .addField('Join Our Discord', '[Discord](https://discord.gg/UV22V6fEAv)', true)
                 .addField('Follow PHV on GitHub', '[GitHub](https://github.com/PHV08)', true)
