@@ -17,7 +17,7 @@ module.exports = {
             .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 256 }))
             .setTitle('Invite me to your server!')
             .setDescription(
-                `[Invite and authorize](https://discord.com/api/oauth2/authorize?client_id=1122193542140403800&permissions=8&scope=bot) | [Website](https://github.com/PHV08) | [Join support server](https://discord.gg/UV22V6fEAv)\n\n[Developer](https://linktr.ee/UNKNOWNPHV)`
+                `[Invite and authorize](https://discord.com/oauth2/authorize?client_id=1256832113282388050) | [Website](https://github.com/Earlpolloso) | [Join support server](https://discord.gg/4vpJRCNvYA)\n\n[Developer](https://github.com/Earlpolloso)`
             )
             .setFooter({ text: `${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) });
 
