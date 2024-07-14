@@ -54,6 +54,7 @@ module.exports = {
             const supportServerLink = 'https://discord.gg/4vpJRCNvYA';
             const githubLink = 'https://github.com/Earlpolloso';
             const youtubeLink = 'https://www.youtube.com/@Earlpolloso22';
+            
             const embed = new MessageEmbed()
                 .setTitle('PHV Help Desk')
                 .setThumbnail(client.user.displayAvatarURL({ size: 512 }))
