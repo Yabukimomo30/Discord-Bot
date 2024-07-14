@@ -51,9 +51,9 @@ module.exports = {
 
             const color = message.guild.me.displayHexColor;
 
-            const supportServerLink = 'https://discord.gg/UV22V6fEAv';
-            const githubLink = 'https://github.com/PHV08/Discord-MusicBot-5';
-            const youtubeLink = 'https://www.youtube.com/channel/UCGTbFucVXPA9OBTUPZj-TzQ';
+            const supportServerLink = 'https://discord.gg/4vpJRCNvYA';
+            const githubLink = 'https://github.com/Earlpolloso';
+            const youtubeLink = 'https://www.youtube.com/@Earlpolloso22';
 
             const embed = new MessageEmbed()
                 .setTitle('PHV Help Desk')
