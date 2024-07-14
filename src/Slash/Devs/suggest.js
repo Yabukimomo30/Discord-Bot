@@ -40,7 +40,7 @@ module.exports = {
             const sankyuu = new MessageEmbed()
                 .setTitle(`:white_check_mark: Thanks for your suggestion!`)
                 .setDescription(
-                    `Hey <@${message.author.id}>, thanks for your suggestion!\nYour suggestion has been sent to [**PHV Development**](https://discord.gg/UV22V6fEAv) in <#1127957311441342525>.`
+                    `Hey <@${message.author.id}>, thanks for your suggestion!\nYour suggestion has been sent to [**Universe Development**](https://discord.gg/4vpJRCNvYA) in <#1261684874067312681>.`
                 )
                 .setColor('#00FF00')
                 .setTimestamp();
