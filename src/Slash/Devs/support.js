@@ -15,8 +15,8 @@ module.exports = {
     run: async (client, message, args) => {
         const embed = new MessageEmbed()
             .setTitle('Support the Developer!')
-            .setDescription('Support PHV By Boosting his server!')
-            .addField('PHV COMMUNITY', '[Join Here](https://discord.gg/UV22V6fEAv)')
+            .setDescription('Support Earl By Boosting his server!')
+            .addField('The Universe COMMUNITY', '[Join Here](https://discord.gg/4vpJRCNvYA)')
             .setColor('BLUE')
             .setTimestamp()
             .setFooter(message.author.tag, message.author.avatarURL());
