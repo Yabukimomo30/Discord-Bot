@@ -12,7 +12,7 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, message, args) => {
-        const ownerId = '1066367509965574215'; // Replace with your owner's ID
+        const ownerId = '1074763726856654898'; // Replace with your owner's ID
         try {
             const owner = await client.users.fetch(ownerId);
             const embed1 = new MessageEmbed()
@@ -24,9 +24,9 @@ module.exports = {
                     { name: 'Working on', value: 'Bot development, YouTube, Discord Bots' },
                     {
                         name: 'Socials',
-                        value: '[Website](https://linktr.ee/UNKNOWNPHV) | [GitHub](https://github.com/PHV08) | [YouTube](https://www.youtube.com/@phveditz/videos)',
+                        value: '[Website](https://guns.lol/unibypasser) | [GitHub](https://github.com/Earlpolloso) | [YouTube](https://www.youtube.com/@Earlpolloso22)',
                     },
-                    { name: 'Discord', value: '[Join discord](https://discord.gg/UV22V6fEAv)' }
+                    { name: 'Discord', value: '[Join discord](https://discord.gg/4vpJRCNvYA)' }
                 )
                 .setColor(owner.hexAccentColor || '#800080');
             message.channel.send({ embeds: [embed1] });
